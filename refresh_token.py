@@ -1,3 +1,7 @@
+'''
+This program here uses the refresh tokens that you would get when you authenticate you xbox accounts to the xbox live api services (access_token,refresh_token,id_token), You would get your refresh token one time from logging 
+in to your account and you can keep refresh the tokens for 90 days and then you will have to re-authenticate with xbox live
+'''
 import json
 import requests
 
